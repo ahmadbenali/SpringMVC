@@ -8,6 +8,11 @@
           th:href="@{/CSS/DemoCss.css}"/>
 </head>
 <body>
+    Hello World!
     <p th:text="'Time on the server is ' + ${TheDate}" class="color"/>
+
+
+
+    Student name: <span th:text="${param.studentName}"/>
 </body>
 </html>

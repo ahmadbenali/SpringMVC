@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+
+    <!-- processForm is the name of the RequsetMapping not the controller or html file-->
+    <form th:action="@{/processForm}" method="GET">
+        <!--name is the name of the html form field-->
+        <input type="text" name="studentName" placeholder="What's your name?"/>
+        <input type="submit"/>
+    </form>
+
+</body>
+</html>
